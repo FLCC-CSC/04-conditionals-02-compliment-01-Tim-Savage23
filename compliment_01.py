@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Tim Savage
+# DATE: February, 19, 2026
+# BRIEF DESCRIPTION:  Ask user if they want a compliment.
 
 
 
@@ -15,10 +15,11 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+answer = input("Would you like a compliment?: ")
 
-
-
-
+if answer == "yes":
+    print("You are a nice person.")
+print("Thank you for playing.")
 
 
 
@@ -66,12 +67,13 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
+I would rate this lab a 5. It was a little hard when starting but I did get it quickly after remembering proper placement.
 
 
 
 
 2. What was the hardest part of this lab?
-
+Maybe silly, but for me the hardest part was remembering if using [:] after the question would throw an error.
 
 
 
